@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: green ;
+}
+
+body{
+    background-color: red;
+    height: 100vh; /*unidad VIEWPORT HEIGHT*/
+    width: 100vw;  /*unidad VIEWPORT HEIGHT*/
+}
+.contenedor{
+    background-color: blue;
+    height: 100%;   
+    width: 100%;
+    display: flex;
+}
+main{
+    height: 100%;
+    width: 60%;
+    background-color: blueviolet;
+}
+aside{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
