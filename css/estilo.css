@@ -1,19 +1,145 @@
 body{
-    background-color: rgb(0, 0, 0);
     height: 100vh; /*unidad VIEWPORT HEIGHT*/
     width: 100vw;  /*unidad VIEWPORT HEIGHT*/
+    margin-left: 22%;
 }
 .contenedor{
-    background-color: blue;
     height: 100%;   
-    width: 100%;
+    width: 50%;
     display: flex;
 }
-
+/*--------------Contenedores Derecha/Izquierda-----------------*/
 .Izquierda{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
 .Derecha{
     background-color: yellow;
+    height: 100%;
+    width: 40%;
+
 }
+/*--------------Foto de usuario-----------------*/
+.FotoUsuario{
+    background-color: rgb(113, 113, 230);
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.Foto{
+    height: 80%;
+    width: 40%;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+/*--------------Nombre y Apellido-----------------*/
+.Nombre{
+    background-color: rgb(113, 113, 230);
+    font-size: 28px;
+    height: 5%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 0px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+/*--------------Profesion-----------------*/
+.Profesion{
+    background-color: rgb(113, 113, 230);
+    font-size: 30px;
+    height: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+/*--------------Perfil-----------------*/
+.Perfil{
+    height: 25%;
+    background-color: rgb(113, 113, 230);
+    margin: 0px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.TituloPerfil{
+    height: 12%;
+    font-size: 18px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-left: 14px;
+    margin: 3px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.DescripPerfil{
+    height: 70%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+/*--------------Experiencia Laboral-----------------*/
+.experiencia{
+    background-color: rgb(113, 113, 230);
+    height: 35%;
+    margin: 0px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.TituloExp{
+    height: 10%;
+    font-size: 18px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-left: 14px;
+    margin: 3px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.caja{
+    height: 34%;
+    width: 90%;
+    display: flex;
+    border: 2px solid black;
+    margin: 3px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 5px;
+
+}
+.Trabajo{
+    background-color: pink;    
+    height: 93%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.DescripTrabajo{
+    background-color: pink;
+    width: 70%;
+    padding: 10px;                  
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
