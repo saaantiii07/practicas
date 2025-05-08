@@ -1,15 +1,19 @@
-body{
-    height: 100vh; /*unidad VIEWPORT HEIGHT*/
-    width: 100vw;  /*unidad VIEWPORT HEIGHT*/
+body {
+    height: 100vh;
+    /*unidad VIEWPORT HEIGHT*/
+    width: 100vw;
+    /*unidad VIEWPORT HEIGHT*/
     margin-left: 22%;
 }
-.contenedor{
-    height: 100%;   
+
+.contenedor {
+    height: 100%;
     width: 50%;
     display: flex;
 }
+
 /*--------------Contenedores Derecha/Izquierda-----------------*/
-.Izquierda{
+.Izquierda {
     background-color: rgb(255, 255, 255);
     height: 100%;
     width: 60%;
@@ -17,14 +21,15 @@ body{
     flex-direction: column;
 }
 
-.Derecha{
-    background-color: yellow;
+.Derecha {
     height: 100%;
     width: 40%;
-
+    display: flex;
+    flex-direction: column;
 }
+
 /*--------------Foto de usuario-----------------*/
-.FotoUsuario{
+.FotoUsuario {
     background-color: rgb(113, 113, 230);
     height: 25%;
     display: flex;
@@ -35,14 +40,15 @@ body{
     border: 3px solid black;
 }
 
-.Foto{
+.Foto {
     height: 80%;
     width: 40%;
     border-radius: 50%;
     border: 3px solid black;
 }
+
 /*--------------Nombre y Apellido-----------------*/
-.Nombre{
+.Nombre {
     background-color: rgb(113, 113, 230);
     font-size: 28px;
     height: 5%;
@@ -53,8 +59,9 @@ body{
     border-radius: 5px;
     border: 3px solid black;
 }
+
 /*--------------Profesion-----------------*/
-.Profesion{
+.Profesion {
     background-color: rgb(113, 113, 230);
     font-size: 30px;
     height: 4%;
@@ -65,8 +72,9 @@ body{
     border-radius: 5px;
     border: 3px solid black;
 }
+
 /*--------------Perfil-----------------*/
-.Perfil{
+.Perfil {
     height: 25%;
     background-color: rgb(113, 113, 230);
     margin: 0px 10px 5px 10px;
@@ -74,7 +82,7 @@ body{
     border: 3px solid black;
 }
 
-.TituloPerfil{
+.TituloPerfil {
     height: 12%;
     font-size: 18px;
     display: flex;
@@ -86,7 +94,7 @@ body{
     border: 3px solid black;
 }
 
-.DescripPerfil{
+.DescripPerfil {
     height: 70%;
     font-size: 15px;
     display: flex;
@@ -94,15 +102,17 @@ body{
     justify-content: center;
     margin: 5px;
 }
+
 /*--------------Experiencia Laboral-----------------*/
-.experiencia{
+.experiencia {
     background-color: rgb(113, 113, 230);
     height: 35%;
     margin: 0px 10px 5px 10px;
     border-radius: 5px;
     border: 3px solid black;
 }
-.TituloExp{
+
+.TituloExp {
     height: 10%;
     font-size: 18px;
     display: flex;
@@ -113,7 +123,8 @@ body{
     border-radius: 5px;
     border: 3px solid black;
 }
-.caja{
+
+.caja {
     height: 34%;
     width: 90%;
     display: flex;
@@ -124,8 +135,9 @@ body{
     padding: 5px;
 
 }
-.Trabajo{
-    background-color: pink;    
+
+.Trabajo {
+    background-color: pink;
     height: 93%;
     width: 30%;
     display: flex;
@@ -135,11 +147,195 @@ body{
     border-radius: 5px;
     border: 3px solid black;
 }
-.DescripTrabajo{
+
+.DescripTrabajo {
     background-color: pink;
     width: 70%;
-    padding: 10px;                  
+    padding: 10px;
     border-radius: 5px;
     border: 3px solid black;
 }
 
+/*--------------LADO DERECHO-----------------*/
+
+.DetallesPersonales {
+    background-color: rgb(113, 113, 230);
+    height: 25%;
+    border-radius: 5px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.TituloDetales {
+    height: 15%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 14px;
+    margin: 3px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.Gmail {
+    height: 15%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    margin: 20px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: pink;
+}
+
+.PaginaPersonal {
+    height: 14%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    margin: 10px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: pink;
+}
+
+.Numero {
+    height: 14%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    margin: 10px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: pink;
+}
+
+/*--------------Redes Sociales-----------------*/
+
+.RedesSociales {
+    background-color: rgb(113, 113, 230);
+    height: 10%;
+    width: 98%;
+    margin-top: 4px;
+    display: flex;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.FotoRed {
+    height: 20px;
+    width: 20px;
+}
+
+.DesRed {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.Parte {
+    display: flex;
+    flex-direction: column;
+    height: 96%;
+    width: 50%;
+    align-items: start;
+    text-align: start;
+}
+
+.Facebook,
+.Twitter,
+.Instagram,
+.Direccion {
+    display: flex;
+    background-color: pink;
+    height: 30px;
+    width: 130px;
+    margin: 3px;
+    padding-left: 2px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+/*--------------Educacion Estudiantil-----------------*/
+
+.educacion {
+    background-color: rgb(113, 113, 230);
+    height: 40%;
+    width: 99%;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.tituEdu {
+    height: 9%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 14px;
+    margin: 3px 10px 5px 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.desEdu {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/*--------------Lenguajes-----------------*/
+
+.lenguajes {
+    background-color: rgb(113, 113, 230);
+    height: 20%;
+    width: 99%;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.espa, .ingles, .aleman {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 30%;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.tituesp, .tituIngles, .tituAle {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.nivelesp, .nivelIngles, .nivelAle {
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%; 
+}
+
+.bolitas-container {
+    display: flex;
+    gap: 6px; 
+    justify-content: space-evenly; 
+    width: 100%; 
+}
+
+.bolitas-container div {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.bolitas-container .si {
+    background-color: #ffffff;
+}
